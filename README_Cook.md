@@ -1,1 +1,2 @@
-RC Test
+###### Overview
+Overview of the project: Utilizing Machine learning to build a dynamic table, react to user input using JavaScript and incorporate it into a web site using HTML, CSS and Bootstrap for Lung Cancer across the state of California. We will use our knowledge of Python to create the different datasets and then utilizing Tableau create various visualizations finally incorporating it into an interactive model on HTML format
