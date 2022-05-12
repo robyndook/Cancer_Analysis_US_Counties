@@ -10,6 +10,7 @@ Overview of the project: Utilizing Machine learning to build a dynamic table, re
     - Once per week outside of class - Friday's at 7pm (Teams Invite)
 - Start with review of projects
 - End with determined outcomes by following meeting
+- File naming conventions example: name_1_filename.csv, name_1_filename.exl
 
 
 #### Individual Branches
