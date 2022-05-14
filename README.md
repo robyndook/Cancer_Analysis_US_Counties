@@ -6,6 +6,7 @@ Overview of the project: Utilizing Machine learning to build a dynamic table, re
 
 #### Communication Protocols
 - No commits before 5pm
+- Final commit by 10pm on Sundays
 - Meet three times per week during class, 
     - Once per week outside of class - Friday's at 7pm (Teams Invite)
 - Start with review of projects
