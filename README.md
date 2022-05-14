@@ -5,8 +5,8 @@ Cancer Treatment Analysis in California [^1]
 Data Analytics Final - Population Analytics on Cancer Treatment Centers in California
 
 
-[Rubric Check List](https://docs.google.com/spreadsheets/d/1v1SoQnN5IQMc73mvup8fepkPMwDa6uQx_xUf28m6x9E/edit?usp=sharing)
-[Project Ideas and Notes](https://docs.google.com/document/d/1zQ-kWXyErR-VrSmm-UKi8zXpiTBnO7TUFKcRfpWdSdU/edit)
+- [Rubric Check List](https://docs.google.com/spreadsheets/d/1v1SoQnN5IQMc73mvup8fepkPMwDa6uQx_xUf28m6x9E/edit?usp=sharing)
+- [Project Ideas and Notes](https://docs.google.com/document/d/1zQ-kWXyErR-VrSmm-UKi8zXpiTBnO7TUFKcRfpWdSdU/edit)
 
 
 ###### Overview
