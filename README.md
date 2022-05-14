@@ -3,7 +3,12 @@ Cancer Treatment Analysis in California [^1]
 
 
 Data Analytics Final - Population Analytics on Cancer Treatment Centers in California
-[Check List](https://docs.google.com/spreadsheets/d/1v1SoQnN5IQMc73mvup8fepkPMwDa6uQx_xUf28m6x9E/edit?usp=sharing)
+
+
+[Rubric Check List](https://docs.google.com/spreadsheets/d/1v1SoQnN5IQMc73mvup8fepkPMwDa6uQx_xUf28m6x9E/edit?usp=sharing)
+[Project Ideas and Notes](https://docs.google.com/document/d/1zQ-kWXyErR-VrSmm-UKi8zXpiTBnO7TUFKcRfpWdSdU/edit)
+
+
 ###### Overview
 Overview of the project: Utilizing Machine learning to build a dynamic table, react to user input using JavaScript and incorporate it into a web site using HTML, CSS and Bootstrap for Lung Cancer across the state of California. We will use our knowledge of Python to create the different datasets and then utilizing Tableau create various visualizations finally incorporating it into an interactive model on HTML format
 
