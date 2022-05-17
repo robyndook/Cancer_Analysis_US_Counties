@@ -33,6 +33,7 @@ Overview of the project: Utilizing Machine learning to build a dynamic table, re
 - *Plans on data cleaning (if needed)*
     - Using Pandas to load data and clean relevent data points
         - Data Points:
+            - Data points from 2015 to 2019
             - County / State
             - Count of Incident
             - Count of Mortality 
