@@ -50,6 +50,7 @@ Overview of the project: Utilizing Machine learning to build a dynamic table, re
         - webdriver_manager.chrome 
         - Flask
         - PyMongo
+        - AWS
     - Database:
         - SQL
         - Jupyter 
@@ -73,6 +74,11 @@ Overview of the project: Utilizing Machine learning to build a dynamic table, re
     - train_test_split
     - StandardScaler
     - OneHotEncoder
+
+#### Key Questions
+1. MUA index relates to Cancer incidence and mortality  
+2. Does that relationship differ based on Gender, Age, Ethnicity, and Income Level
+3. Which factors are the most prevalent in relation to Cancer incidence and mortality
 
 #### Individual Branches
 - abramo_data_analysis
