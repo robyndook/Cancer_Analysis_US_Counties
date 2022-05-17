@@ -1,4 +1,5 @@
-![Image](https://cdn10.bigcommerce.com/s-npe4l/products/236/images/191/M-LR-CA4C---High__74297.1456496284.1280.1280.jpg?c=2)[^2]
+![Image](https://cdn10.bigcommerce.com/s-npe4l/products/236/images/191/M-LR-CA4C---High__74297.1456496284.1280.1280.jpg?c=2 =250x250)
+[^2]
 # Cancer_Treatment_Centers_California 
 
 Cancer Treatment Analysis in California [^1]
@@ -86,4 +87,4 @@ Overview of the project: Utilizing Machine learning to build a dynamic table, re
 [^1]: By using these data, you signify your agreement to comply with the following statutorily based requirements.
     - The Public Health Service Act (42 U.S.C. 242m(d)) provides that the data collected by the National Center for Health Statistics (NCHS) may be used only for the purpose for which they were obtained; any effort to determine the identity of any reported cases, or to use the information for any purpose other than for statistical reporting and analysis, is against the law. The National Program of Cancer Registries (NPCR), Centers for Disease Control and Prevention (CDC), has obtained an assurance of confidentiality pursuant to Section 308(d) of the Public Health Service Act, 42 U.S.C. 242m(d). This assurance provides that identifiable or potentially identifiable data collected by the NPCR may be used only for the purpose for which they were obtained unless the person or establishment from which they were obtained has consented to such use. Any effort to determine the identity of any reported cases, or to use the information for any purpose other than statistical reporting and analysis, is a violation of the assurance.
 
-[^2] Image Source - https://magnetamerica.com/cancer-awareness-rainbow-ribbon-magnet/
+[^2]: Cover Image Source - https://magnetamerica.com/cancer-awareness-rainbow-ribbon-magnet/
