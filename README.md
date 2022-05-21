@@ -29,7 +29,6 @@ Overview of the project: Utilizing Machine learning to build a dynamic table, re
     - Webscraping Population/ incident for [State Cancer Profile](https://www.statecancerprofiles.cancer.gov/)
     - Webscraping mortality for [State Cancer Profile](https://www.statecancerprofiles.cancer.gov/)
     - Webscraping Medically underserved area value/ median income/ Rural/Non-Rural/MUA index level for [HRSA Data](https://data.hrsa.gov/tools/shortage-area/mua-find)
-    - Webscraping median income per county / state
 - *Plans on data cleaning (if needed)*
     - Using Pandas to load data and clean relevent data points
         - Data Points:
@@ -87,6 +86,13 @@ Overview of the project: Utilizing Machine learning to build a dynamic table, re
 - leyzer_data_analysis
 - cook_data_analysis
 - amar_data_analysis
+
+#### Resources 
+- [State Cancer Profile](https://www.statecancerprofiles.cancer.gov/)
+- [Health Resources and Services Administration](https://data.hrsa.gov/tools/shortage-area/mua-find)
+- [US County Populations 2022](https://worldpopulationreview.com/us-counties)
+- [US States - Ranked by Population 2022](https://worldpopulationreview.com/states)
+- [Median Household Income by State 2022](https://worldpopulationreview.com/state-rankings/median-household-income-by-state)
 
 ![Image](https://cdn10.bigcommerce.com/s-npe4l/products/236/images/191/M-LR-CA4C---High__74297.1456496284.1280.1280.jpg?c=2)
 [^2]
