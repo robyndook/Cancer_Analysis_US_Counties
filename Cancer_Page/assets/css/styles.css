@@ -36,7 +36,7 @@ section h2 {
 }
 
 .bg-dark {
-    background-color: #2f3542 !important;
+    background-color: #c7e310 !important;
 }
 
 .btn-social {
@@ -115,7 +115,7 @@ header.masthead h2 {
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background-color: rgba(48, 51, 107, 0.7);
+    background-color: rgba(19, 113, 180, 0.7);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
