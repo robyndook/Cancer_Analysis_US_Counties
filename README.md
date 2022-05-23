@@ -1,6 +1,6 @@
 # Cancer_Treatment_Centers_California
 
-## Segment 2 Update:
+## Segment 2, Week 1 Update:
 
 ### Summary 
 
