@@ -28,7 +28,9 @@ Overview of the project: Utilizing Machine learning to build a dynamic table, re
 - *How you collected (or will collect) the data you like*
     - Webscraping Population/ incident for [State Cancer Profile](https://www.statecancerprofiles.cancer.gov/)
     - Webscraping mortality for [State Cancer Profile](https://www.statecancerprofiles.cancer.gov/)
+
     - Webscraping Medically underserved area value/ median income/ Rural/Non-Rural/MUA index level for [HRSA Data](https://data.hrsa.gov/tools/shortage-area/mua-find)
+
 - *Plans on data cleaning (if needed)*
     - Using Pandas to load data and clean relevent data points
         - Data Points:
