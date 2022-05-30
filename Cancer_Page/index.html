@@ -18,31 +18,86 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Sofia:100,300,400,500,700" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
     <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
+<!--creating a home button---->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: rgb(240, 246, 251);
+  border: none;
+  color: rgb(187, 26, 26);
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+        </style>
 
 <body id="page-top">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
         <div class="container">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+</style>
+</head>
+<body>
+
+<!-- <div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Maps Dashboard
+                  Graphics dashboard 
+                  History </a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div> -->
+
+
+
+</body>
+</html>
+
             <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button"
                 data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="collapse navbar-collapse" id="navbardropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="#portfolio">Visualizations</a>
+                        <a class="nav-link " href="#landingScreen">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Visualization">Visualizations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Meet-the-team">Our Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#education">Metrics</a>
+                        <a class="nav-link" href="#Project_Summary">Metrics</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#connect">Connect with us</a>
@@ -56,48 +111,61 @@
     <header class="masthead bg-primary text-white text-center">
         <div class="container">
             <img class="img-fluid mb-5 d-block mx-auto rounded float-left" src="assets/img/Cancer_Ribbon.jpg" alt="" />
-            <h1 class="mb-0">Centers For Cancer Treatment In California</h1>
+            <h1 class="mb-0">Cancer Treatment Centers in California</h1>
             <hr />
             <h2 class="mb-0">
-                UC Berkeley Data Analysis
+                UC Berkeley Data Analysis<br>
                 Final Project
             </h2>
-
-            <!-- Replace this text with your brand statement or other short text about you. -->
-            <p class="brand-statement">
-                Overview of the project: Utilizing Machine learning to build a dynamic table, 
-                react to user input using JavaScript and incorporate it into a web site using HTML, 
-                CSS and Bootstrap for Lung Cancer across the state of California. We will use our knowledge 
-                of Python to create the different datasets and then utilizing Tableau create various 
-                visualizations finally incorporating it into an interactive model on HTML format
-
+            <!-- Replace this text with your Overview of the project or other short text about you. -->
+            <p class="Overview-of-the-project">
+                Utilizing Machine learning to build a dynamic table, react to user input using JavaScript 
+                and incorporate it into a web site using HTML, CSS and Bootstrap for Lung Cancer 
+                across the state of California. We will use our knowledge of Python to create the 
+                different datasets and then utilizing Tableau create various visualizations 
+                finally incorporating it into an interactive model on HTML format
             </p>
         </div>
     </header>
 
     <!-- Visualization Section -->
-    <section class="portfolio" id="portfolio">
+    <section class="Visualization" id="Visualization">
         <div class="container">
             <h2 class="text-center text-uppercase text-secondary mb-0">
                 Tableau Visaulizations
             </h2>
             <hr class="star-dark mb-5" />
-            <div class='tableauPlaceholder' id='viz1652926531021' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MM&#47;MMFBGMZPW&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;MMFBGMZPW' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MM&#47;MMFBGMZPW&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1652926531021');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='800px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-      <!-- Portfolio Grid Section -->      
+
+            <!--Tableau Embedded codes 1 tableau public and 2 tableau online-->
+            
+            <script type='text/javascript' src='https://10az.online.tableau.com/javascripts/api/viz_v1.js'>
+            </script><div class='tableauPlaceholder' style='width: 2000px; height: 1027px;'>
+            <object class='tableauViz' width='2000' height='1027' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2F10az.online.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='&#47;t&#47;leyzerdataanalysis' />
+                <param name='name' value='Final_Project&#47;Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='showAppBanner' value='false' />
+            </object>
+        </div>
+
+      <!--Team Grid Section -->      
     </section>
-    <section class="portfolio" id="portfolio">
+    <section class="Meet-the-team" id="Meet-the-team">
         <div class="container">
             <h2 class="text-center text-uppercase text-secondary mb-0">
-                Who We are
+                Our Team
             </h2>
             <hr class="star-dark mb-5" />
     <!-- About Section -->
     <!-- Each project should include a header and a picture or animated gif.-->
     <div class="row">
         <div class="col-md-6 col-lg-2">
-            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-1">
-                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            <a class="Meet-the-team-item d-block mx-auto" data-toggle="modal" data-target="#Meet-the-team-modal-1">
+                <div class="Meet-the-team-item-caption d-flex position-absolute h-100 w-100">
+                    <div class="Meet-the-team-item-caption-content my-auto w-100 text-center text-white">
                         <p>Andrew</p>
                         <i class="fas fa-search-plus fa-2x"></i>
                     </div>
@@ -106,9 +174,9 @@
             </a>
         </div>
         <div class="col-md-6 col-lg-2">
-            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-2">
-                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            <a class="Meet-the-team-item d-block mx-auto" data-toggle="modal" data-target="#Meet-the-team-modal-2">
+                <div class="Meet-the-team-item-caption d-flex position-absolute h-100 w-100">
+                    <div class="Meet-the-team-item-caption-content my-auto w-100 text-center text-white">
                         <p>Leyzer</p>
                         <i class="fas fa-search-plus fa-2x"></i>
                     </div>
@@ -117,9 +185,9 @@
             </a>
         </div>
         <div class="col-md-6 col-lg-2">
-            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-3">
-                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            <a class="Meet-the-team-item d-block mx-auto" data-toggle="modal" data-target="#Meet-the-team-modal-3">
+                <div class="Meet-the-team-item-caption d-flex position-absolute h-100 w-100">
+                    <div class="Meet-the-team-item-caption-content my-auto w-100 text-center text-white">
                         <p>Amar</p>
                         <i class="fas fa-search-plus fa-2x"></i>
                     </div>
@@ -128,20 +196,20 @@
             </a>
         </div>
         <div class="col-md-6 col-lg-2">
-            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-4">
-                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            <a class="Meet-the-team-item d-block mx-auto" data-toggle="modal" data-target="#Meet-the-team-modal-4">
+                <div class="Meet-the-team-item-caption d-flex position-absolute h-100 w-100">
+                    <div class="Meet-the-team-item-caption-content my-auto w-100 text-center text-white">
                         <p>Henry</p>
                         <i class="fas fa-search-plus fa-3x"></i>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/portfolio/project4.jpg" alt="" />
+                <img class="img-fluid" src="assets/img/portfolio/Henry.png" alt="" />
             </a>
         </div>
         <div class="col-md-6 col-lg-2">
-            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-5">
-                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            <a class="Meet-the-team-item d-block mx-auto" data-toggle="modal" data-target="#Meet-the-team-modal-5">
+                <div class="Meet-the-team-item-caption d-flex position-absolute h-100 w-100">
+                    <div class="Meet-the-team-item-caption-content my-auto w-100 text-center text-white">
                         <p>Robyn</p>
                         <i class="fas fa-search-plus fa-2x"></i>
                     </div>
@@ -152,17 +220,26 @@
     </div>
 </div>
 </section>
-
+<!--This is our external minks toggle webpage which can take us directly to out Jupuyter or ML code-->
+<!-- <p>I'm creating a link to
+    <a href="https://www.mozilla.org/en-US/"
+       title="The best place to find more information about Mozilla's
+              mission and how to contribute">the Mozilla homepage</a>.
+    </p> -->
 
 <!-- About Section -->
     <!--Delete This.from here-->
 
     <section class="bg-primary text-white mb-0" id="about">
         <div class="container">
-            <h2 class="text-center text-uppercase text-white">About Us</h2>
+            <h2 class="text-center text-uppercase text-black">About Us</h2>
             <hr class="star-light mb-5" />
 
-            <p class="about-me text-center">
+            <p class="about-us text-center">
+                Our team is a diverse, highly motivated, and communication focused 
+                group of free lance designers. We have focused on developing a project 
+                that creatively and succinctly depicts the relationships between cancer incidence, 
+                mortality, and the classification of medically underserved areas.
                 We are Data Analytics enthusiasts and love working on complex data 
                 to clean make it simplified and presentable using Machine learning 
                 and web scraping with our skills in Java and Python 
@@ -175,36 +252,34 @@
                     <!-- Replace these icons and text with skills you want to show case -->
                     <!-- You should ideally not include any more than 5-6 tech skills -->
                     <div class="col">
-                        <i class="fab fa-html5 fa-3x"></i>
+                        <i class="fab fa-aws fa-5x"></i>
+                        <p>AWS</p>
                     </div>
                     <div class="col">
-                        <i class="fab fa-css3-alt fa-3x"></i>
+                        <i class="fab fa-html5 fa-5x"></i>
+                        <p>HTML</p>
                     </div>
                     <div class="col">
-                        <i class="fab fa-js-square fa-3x"></i>
+                        <i class="fab fa-js-square fa-5x"></i>
+                        <p>JavaScript</p>
                     </div>
                     <div class="col">
-                        <i class="fab fa-python fa-3x"></i>
+                        <i class="fab fa-python fa-5x"></i>
+                        <p>Python</p>
                     </div>
                     <div class="col">
-                        <i class="fab fa-git fa-3x"></i>
+                        <i class="fab fa-git fa-5x"></i>
+                        <p>Git</p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center mt-4">
-                <a class="btn btn-lg btn-outline-light" href="#">
-                    <i class="fas fa-download mr-2"></i>
-                    https://github.com/robyndook/Cancer_Treatment_Centers_California.git
-                </a>
-            </div>
         </div>
     </section>
 <!-- About Section -->
     <!--Delete This.till here-->
 
 
-    <!-- Education -->
-    <section class="education" id="education">
+    <!-- Project Summary -->
+    <section class="Project_Summary" id="Project_Summary">
         <div class="container">
             <h2 class="text-center text-uppercase text-secondary mb-0">
                 Project Summary
@@ -278,26 +353,26 @@
                         Connect with us
                     </h2>
                     <p class="text-uppercase mb-4">
-                        habowman@wisc.edu <br>
-                        leyzercoker@gmail.com <br>
-                        amarshah4334@yahoo.com <br>
-                        drewabramo12@gmail.com <br>
-                        Robyn pls add yours
+                        <a href="mailto:habowman@wisc.edu">Henry</a>
+                        <a href="mailto:leyzercoker@gmail.com">Leyzer</a>
+                        <a href="mailto:amarshah4334@yahoo.com">Amar</a>
+                        <a href="mailto:Robyn@abc.com">Robyn</a>
+                        <a href="mailto:drewabramo12@gmail.com">Andrew</a>
                     </p>
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item">
+                        <!-- <li class="list-inline-item">
                             <a class="btn-social text-center rounded-circle" href="#">
-                                <i class="fab fa-fw fa-twitter"></i>
+                                <i class="fab fa-fw fa-"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a class="btn-social text-center rounded-circle" href="#">
                                 <i class="fab fa-fw fa-linkedin-in"></i>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="list-inline-item">
                             <a class="btn-social text-center rounded-circle" href="https://github.com/robyndook/Cancer_Treatment_Centers_California.git">
-                                <i class="fab fa-github"></i>
+                                <i class="fab fa-github fa-5x"></i>
                             </a>
                         </li>
                     </ul>
@@ -314,11 +389,11 @@
 
 
 
-    <!-- Portfolio Modals: These are what open up when you click on each project. Replace the information as needed. -->
-    <!-- Portfolio Modal 1 -->
-    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-1">
-        <div class="portfolio-modal-dialog bg-white">
-            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+    <!-- Meet-the-team Modals: These are what open up when you click on each project. Replace the information as needed. -->
+    <!-- Meet-the-team Modal 1 -->
+    <div class="modal Meet-the-team-modal mfp-hide" id="Meet-the-team-modal-1">
+        <div class="Meet-the-team-modal-dialog bg-white">
+            <a class="close-button Meet-the-team-modal-dismiss" href="#" data-dismiss="modal">
                 <i class="fa fa-2x fa-times close-link"></i>
             </a>
             <div class="container text-center">
@@ -328,13 +403,13 @@
                             Andrew Abramo
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="img/portfolio/project1.jpg" alt="" />
+                        <img class="img-fluid mb-5" src="img/portfolio/Andrew.png" alt="" />
                         <p class="mb-5">
                             Welcome to my page, i am a webscrapper and python enthusiast.
                         </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            Resume</a>
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="#">
+                            LinkedIn</a>
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/drewabramo12">
                             GitHub</a>
                     </div>
                 </div>
@@ -342,10 +417,10 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 2 -->
-    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-2">
-        <div class="portfolio-modal-dialog bg-white">
-            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+    <!-- Meet-the-team Modal 2 -->
+    <div class="modal Meet-the-team-modal mfp-hide" id="Meet-the-team-modal-2">
+        <div class="Meet-the-team-modal-dialog bg-white">
+            <a class="close-button Meet-the-team-modal-dismiss" href="#" data-dismiss="modal">
                 <i class="fa fa-2x fa-times close-link"></i>
             </a>
             <div class="container text-center">
@@ -355,15 +430,15 @@
                             Leyzer Coker
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="img/portfolio/project2.jpg" alt="" />
+                        <img class="img-fluid mb-5" src="img/portfolio/leyzer.png" alt="" />
                         <p class="mb-5">
                             Hello welcome to Leyzers page, Visualizations and Tableau enthusiast
                         </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            Resume
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://www.linkedin.com/in/leyzer-coker/">
+                            LinkedIn
                         </a>
 
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/Leyzer1">
                             GitHub</a>
                     </div>
                 </div>
@@ -371,10 +446,10 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-3">
-        <div class="portfolio-modal-dialog bg-white">
-            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+    <!-- Meet-the-team Modal 3 -->
+    <div class="modal Meet-the-team-modal mfp-hide" id="Meet-the-team-modal-3">
+        <div class="Meet-the-team-modal-dialog bg-white">
+            <a class="close-button Meet-the-team-modal-dismiss" href="#" data-dismiss="modal">
                 <i class="fa fa-2x fa-times close-link"></i>
             </a>
             <div class="container text-center">
@@ -384,7 +459,7 @@
                             Amar Shah
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="img/portfolio/project3.jpg" alt="" />
+                        <img class="img-fluid mb-5" src="img/portfolio/Amar.png" alt="" />
                         <p class="mb-5">
                             I'M AMAR SHAH AND I AM A FREELANCE WEB DESIGNER <br>
                             I started my career in web designing with US Berkeley <br>
@@ -397,11 +472,11 @@
                             work published in this project. You can get a hold of me through <br>
                             my email or phone  <br> 
                         </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            Resume
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://www.linkedin.com/in/amar-shah-425772107/">
+                            LinkedIn
                         </a>
 
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/Amarshah4334">
                             GitHub</a>
                     </div>
                 </div>
@@ -409,20 +484,20 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 4 -->
-    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-4">
-        <div class="portfolio-modal-dialog bg-white">
-            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+    <!-- Meet-the-team Modal 4 -->
+    <div class="modal Meet-the-team-modal mfp-hide" id="Meet-the-team-modal-4">
+        <div class="Meet-the-team-modal-dialog bg-white">
+            <a class="close-button Meet-the-team-modal-dismiss" href="#" data-dismiss="modal">
                 <i class="fa fa-2x fa-times close-link"></i>
             </a>
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
-                            Project Name
+                            Henry Bowman
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="img/portfolio/project4.jpg" alt="" />
+                        <img class="img-fluid mb-5" src="img/portfolio/Henry.png" alt="" />
                         <p class="mb-5">
                             Lorem ipsum dolor sit amet, consectetur
                             adipisicing elit. Mollitia neque assumenda ipsam
@@ -431,32 +506,32 @@
                             Reprehenderit soluta, eos quod consequuntur
                             itaque. Nam.
                         </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            Live Demo
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="#">
+                            LinkedIn
                         </a>
 
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            View Code</a>
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/henrybowman99">
+                            GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Portfolio Modal 5 -->
-    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-5">
-        <div class="portfolio-modal-dialog bg-white">
-            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+    <!-- Meet-the-team Modal 5 -->
+    <div class="modal Meet-the-team-modal mfp-hide" id="Meet-the-team-modal-5">
+        <div class="Meet-the-team-modal-dialog bg-white">
+            <a class="close-button Meet-the-team-modal-dismiss" href="#" data-dismiss="modal">
                 <i class="fa fa-2x fa-times close-link"></i>
             </a>
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
-                            Project Name
+                            Robyn Cook
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="img/portfolio/project5.jpg" alt="" />
+                        <img class="img-fluid mb-5" src="img/portfolio/Robyn.png" alt="" />
                         <p class="mb-5">
                             Lorem ipsum dolor sit amet, consectetur
                             adipisicing elit. Mollitia neque assumenda ipsam
@@ -465,51 +540,19 @@
                             Reprehenderit soluta, eos quod consequuntur
                             itaque. Nam.
                         </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            Live Demo
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://www.linkedin.com/in/robyn-c-85aa7751/">
+                            LinkedIn
                         </a>
 
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            View Code</a>
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/robyndook">
+                            GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Portfolio Modal 6 -->
-    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-6">
-        <div class="portfolio-modal-dialog bg-white">
-            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
-                <i class="fa fa-2x fa-times close-link"></i>
-            </a>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-secondary text-uppercase mb-0">
-                            Project Name
-                        </h2>
-                        <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="img/portfolio/project6.jpg" alt="" />
-                        <p class="mb-5">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Mollitia neque assumenda ipsam
-                            nihil, molestias magnam, recusandae quos quis
-                            inventore quisquam velit asperiores, vitae?
-                            Reprehenderit soluta, eos quod consequuntur
-                            itaque. Nam.
-                        </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            Live Demo
-                        </a>
 
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            View Code</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
