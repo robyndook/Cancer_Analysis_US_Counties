@@ -32,4 +32,8 @@ Conceptualization of this scrape has occurred. I will need to focus more on inte
 
 The process of creating the table data is a little bit harder in the MUA data. When I run the code I am able to select for each given feature and have the click function work. Now I need to determine how to scrape the table at this point. Particularly in a series or into a Dataframe that I can concatenate. Scraping for the table may be found in selenium over splinter database.
 
+### 052522
+
+The process for scraping the MUA data is complete. I was able to work with support from teaching staff and others to find the appropriate html tag to run through and then to add the existing rows found into a DataFrame.
+
 ## Data cleaning
