@@ -22,7 +22,7 @@ Data Preprocessing included the following for each model:
 ## Data Splitting
 
 We used the generic train_test_split from sklearn to split the data into training and testing sets for each model. We did not toy around with changing the train/test proportion during segment 2, but we may
-tinker with this aspect later down the road to see how impacts model performance.
+tinker with this aspect later down the road to see how it impacts model performance.
 
 ## Model Selection
 
