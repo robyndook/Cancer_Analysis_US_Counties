@@ -45,6 +45,10 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
         <div class="container">
+            <nav ul {
+                display: inline-block;
+                list-style-type: none;
+            }></nav>         
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,28 +59,9 @@
 </head>
 <body>
 
-<!-- <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Maps Dashboard
-                  Graphics dashboard 
-                  History </a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div> 
-</div> -->
-
-
-
+</head>
 </body>
 </html>
-
             <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button"
                 data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -85,7 +70,7 @@
             <div class="collapse navbar-collapse" id="navbardropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="#landingScreen">Home</a>
+                        <a class="nav-link " href="#landing">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#Visualization">Visualizations</a>
@@ -109,6 +94,7 @@
 
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
+        <section class="landing" id="landing">
         <div class="container">
             <img class="img-fluid mb-5 d-block mx-auto rounded float-left" src="assets/img/Cancer_Ribbon.jpg" alt="" />
             <h1 class="mb-0">Cancer Treatment Centers in California</h1>
@@ -220,7 +206,7 @@
     </div>
 </div>
 </section>
-<!--This is our external minks toggle webpage which can take us directly to out Jupuyter or ML code-->
+<!--This is our external minks toggle webpage which can take us directly to out Jupyter or ML code-->
 <!-- <p>I'm creating a link to
     <a href="https://www.mozilla.org/en-US/"
        title="The best place to find more information about Mozilla's
@@ -234,7 +220,6 @@
         <div class="container">
             <h2 class="text-center text-uppercase text-black">About Us</h2>
             <hr class="star-light mb-5" />
-
             <p class="about-us text-center">
                 Our team is a diverse, highly motivated, and communication focused 
                 group of free lance designers. We have focused on developing a project 
@@ -248,12 +233,11 @@
         <div class="container">
             <div class="col-md-10 offset-md-1">
                 <div class="row text-center skills-row">
-
                     <!-- Replace these icons and text with skills you want to show case -->
                     <!-- You should ideally not include any more than 5-6 tech skills -->
                     <div class="col">
-                        <i class="fab fa-aws fa-5x"></i>
-                        <p>AWS</p>
+                        <i class="fab fa-css fa-5x"></i>
+                        <p>CSS</p>
                     </div>
                     <div class="col">
                         <i class="fab fa-html5 fa-5x"></i>
@@ -283,19 +267,23 @@
         <div class="container">
             <h2 class="text-center text-uppercase text-secondary mb-0">
                 Project Summary
+
             </h2>
+            <div>
             <hr class="star-dark mb-5" />
             <div class="credential">
                 <h2 class="location mb-0">
-                    Incidence rates |
-                    <span class="credential-date text-muted">From 2000 to 2019</span>
+                    Incidence Rate regressesed |
+                    <span class="credential-date text-muted">less than 50 vs. 50+</span>
                 </h2>
-                <p class="lead">By US States</p>
-                <p class="credential-description">
-                    During our project based on the data we found California 
-                    had higher incidence rates of X Y Z cancers compared to Alabama
-                    and lower rates of A B C cancers compared to Texas.
-                </p>
+                                <!-- Dataframe range---------------------------------------- -->
+            <div class="row">
+                <div class="col-md-6 col-lg-">
+                    <a class="Project_Summary-item d-block mx-auto" data-toggle="modal" data-target="#Project_Summary-modal-1">                                                              
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Incidence Regressed on Age less than 50 vs. 50plus.png" alt="" />
+                </div>
+                <!-- dataframe range end------------------------------------------ -->
             </div>
             <hr class="credential-divider" />
             <div class="credential">
@@ -341,9 +329,57 @@
                 </p>
             </div>
             <hr class="credential-divider" />
+            <div>
         </div>
     </section>
+<!-- dataframe range again link----------------------- -->
+<div class="modal Project_Summary-modal mfp-hide" id="Project_Summary-modal-1">
+    <div class="Project_Summary-modal-dialog bg-white">
+        <a class="close-button Project_Summary-modal-dismiss" href="#" data-dismiss="modal">
+            <i class="fa fa-2x fa-times close-link"></i>
+        </a>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-secondary text-uppercase mb-0">
+                        Incidence Rate regressesed
+                    </h2>
+                    <hr class="star-dark mb-5" />
+                    <img class="img-fluid mb-5" src="img/portfolio/Incidence Regressed on Age less than 50 vs. 50plus.png" alt="" />
+                    <p class="mb-5">
+                        <!-- 1111111111111111111111111111 -->
+                    </h2>
+                    <hr class="star-dark mb-5" />
+                    <div class="credential">
+                        <h2 class="location mb-0">
+                            
+                            <span class="credential-date text-muted">less than 50 vs. 50+</span>
+                        </h2>
+                        <p class="lead">By US States</p>
+                        <p class="credential-description">
+                            The model displayed above regresses the age adjusted incidence rate on age.
+                            In this case age was split into two dummy variables with age 50 being the cutoff point.
+                            While the model doesn’t necessarily hold the most robust predictive power, 
+                            the 0.956 r-squared value is very important because it confirms that a vast majority of 
+                            the variety in incidence rates between populations can be explained by age differences. 
+                            Specifically, the model predicts age-adjusted incidence rates per 100,000 people to be 1,244 people
+                            greater for over-50 populations than under-50 populations 
+                            (this metric is found by adding 865.9570 to 378.0595).
+        
+                        </p>
+                    </div>
+                    <!-- 111111111111111111111111 -->
+                    <a class="btn btn-primary Project_Summary-modal-dismiss" href="https://www.linkedin.com/in/andrew-abramo-44628aa8/">
+                        LinkedIn</a>
+                    <a class="btn btn-primary Project_Summary-modal-dismiss" href="https://github.com/drewabramo12">
+                        GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<!-- dataframe range again end link----------------------- -->
     <!-- Footer -->
     <footer class="footer text-center" id="connect">
         <div class="container">
@@ -405,9 +441,11 @@
                         <hr class="star-dark mb-5" />
                         <img class="img-fluid mb-5" src="img/portfolio/Andrew.png" alt="" />
                         <p class="mb-5">
-                            Welcome to my page, i am a webscrapper and python enthusiast.
+                            Andrew is a data analyst that has primarily focused on python and handled 
+                            the bulk of the webscraping needed to collect the data for this project. 
+                            He has interest in working with full stack design and ETL processing.
                         </p>
-                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="#">
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://www.linkedin.com/in/andrew-abramo-44628aa8/">
                             LinkedIn</a>
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/drewabramo12">
                             GitHub</a>
@@ -461,8 +499,8 @@
                         <hr class="star-dark mb-5" />
                         <img class="img-fluid mb-5" src="img/portfolio/Amar.png" alt="" />
                         <p class="mb-5">
-                            I'M AMAR SHAH AND I AM A FREELANCE WEB DESIGNER <br>
-                            I started my career in web designing with US Berkeley <br>
+                            I am Amar Shah and i am a freelance Web Designer <br>
+                            I started my career in web designing with US Berkeley Bootcamp<br>
                             and have experience developing various projects during my time with them.<br>
 
                             I specialize in XHTML, CSS and JavaScript web development. <br>
@@ -499,14 +537,11 @@
                         <hr class="star-dark mb-5" />
                         <img class="img-fluid mb-5" src="img/portfolio/Henry.png" alt="" />
                         <p class="mb-5">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Mollitia neque assumenda ipsam
-                            nihil, molestias magnam, recusandae quos quis
-                            inventore quisquam velit asperiores, vitae?
-                            Reprehenderit soluta, eos quod consequuntur
-                            itaque. Nam.
+                            Henry is a versatile data analyst who specializes in statistical analysis and machine learning.
+                            He was responsible for creating and optimizing the machine learning models in order to produce 
+                            insights and uncover patterns regarding cancer incidence and mortality.
                         </p>
-                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="#">
+                        <a class="btn btn-primary Meet-the-team-modal-dismiss" href="http://www.linkedin.com/in/henrybowman99">
                             LinkedIn
                         </a>
 
@@ -533,12 +568,9 @@
                         <hr class="star-dark mb-5" />
                         <img class="img-fluid mb-5" src="img/portfolio/Robyn.png" alt="" />
                         <p class="mb-5">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Mollitia neque assumenda ipsam
-                            nihil, molestias magnam, recusandae quos quis
-                            inventore quisquam velit asperiores, vitae?
-                            Reprehenderit soluta, eos quod consequuntur
-                            itaque. Nam.
+                            Hello! I’m Robyn Cook, I am an Accounts Receivable Manager for residential property management. 
+                            I specialize in developing and maintaining databases to track collections and customer relations. 
+                            I am experienced in SQL, Python, Git, Yardi, Salesforce, QuickBooks, and Microsoft Office.
                         </p>
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://www.linkedin.com/in/robyn-c-85aa7751/">
                             LinkedIn

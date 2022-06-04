@@ -222,16 +222,6 @@ a:active {
     color: #fff;
 }
 
-/* .close-link {
-    color: #30336b;
-}
-
-/* .close-link:focus,
-.close-link:hover,
-.close-link:active {
-    color: #000000;
-} */ */
-
 .btn {
     border-width: 2px;
 }
@@ -280,13 +270,29 @@ body {
     float: left;
     font-size: 16px;
     color: white;
-    text-align: right;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
   }
-
   
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
   }
+  
+  nav a:hover {}
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    transition: all ease-in-out 500ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+
   
