@@ -40,7 +40,6 @@
   cursor: pointer;
 }
         </style>
-
 <body id="page-top">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
@@ -74,6 +73,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#Visualization">Visualizations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#ERD">ERD</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#Meet-the-team">Our Team</a>
@@ -124,20 +126,58 @@
 
             <!--Tableau Embedded codes 1 tableau public and 2 tableau online-->
             
-            <script type='text/javascript' src='https://10az.online.tableau.com/javascripts/api/viz_v1.js'>
-            </script><div class='tableauPlaceholder' style='width: 2000px; height: 1027px;'>
-            <object class='tableauViz' width='2000' height='1027' style='display:none;'>
-                <param name='host_url' value='https%3A%2F%2F10az.online.tableau.com%2F' /> 
-                <param name='embed_code_version' value='3' /> 
-                <param name='site_root' value='&#47;t&#47;leyzerdataanalysis' />
-                <param name='name' value='Final_Project&#47;Dashboard1' />
-                <param name='tabs' value='no' />
-                <param name='toolbar' value='yes' />
-                <param name='showAppBanner' value='false' />
-            </object>
-        </div>
-
-      <!--Team Grid Section -->      
+            <div class='tableauPlaceholder' id='viz1654362637767' style='position: relative'><noscript><a href='#'>
+                <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16543185620090&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' />
+            <param name='name' value='FinalProject_16543185620090&#47;Dashboard1' />
+            <param name='tabs' value='yes' /><param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16543185620090&#47;Dashboard1&#47;1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>                
+    <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1654362637767');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+    else { vizElement.style.width='100%';vizElement.style.minHeight='1250px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <!-- Background -->
+ <section class="bg-primary text-white mb-0" id="Background">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-black">Background</h2>
+        <hr class="star-light mb-5" />
+        <p class="about-us text-center">
+            MUA= Medically Underserved Area Index<br>
+            Age adjusted Mortality Rate per 100,000 = death rate/population of county*100,000<br>
+            Age adjusted Incidence Rate per 100,000= incidence rate/population of county*100,000
+        </p>
+    </div>
+    <!-- Goals -->
+ <section class="bg-primary text-white mb-0" id="Goals">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-black">Goals</h2>
+        <hr class="star-light mb-5" />
+        <p class="about-us text-center">
+            Cancer Mortality or Incidence and Medically Underserved Index per County<br>
+            Cancer Mortality or Incidence and Demographic Data per County<br>
+            Cancer Mortality or Incidence and Median Household Income per County
+        </p>
+    </div>
+    <!--Team Grid Section -->      
     </section>
     <section class="Meet-the-team" id="Meet-the-team">
         <div class="container">
@@ -207,15 +247,31 @@
 </div>
 </section>
 <!--This is our external minks toggle webpage which can take us directly to out Jupyter or ML code-->
-<!-- <p>I'm creating a link to
-    <a href="https://www.mozilla.org/en-US/"
-       title="The best place to find more information about Mozilla's
-              mission and how to contribute">the Mozilla homepage</a>.
-    </p> -->
-
+<section class="bg-primary text-white mb-10" id="ERD">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-black">ERD</h2>
+        <hr class="star-light mb-5" />
+        <p class="ERD text-center">
+            <!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+  border: 3px solid rgb(255, 255, 255);
+}
+</style>
+</head>
+<body>
+<div class="center">
+    <p>
+        <a href="https://github.com/robyndook/Cancer_Treatment_Centers_California/tree/main/Images"
+         title="Our ERD">To explore our ERD click here</a>.
+</p>
+</div>
+</body>
+</html>
 <!-- About Section -->
-    <!--Delete This.from here-->
-
     <section class="bg-primary text-white mb-0" id="about">
         <div class="container">
             <h2 class="text-center text-uppercase text-black">About Us</h2>
@@ -233,11 +289,15 @@
         <div class="container">
             <div class="col-md-10 offset-md-1">
                 <div class="row text-center skills-row">
-                    <!-- Replace these icons and text with skills you want to show case -->
-                    <!-- You should ideally not include any more than 5-6 tech skills -->
+                    <!-- Our Tech skills -->
+                    </p>Our Skills</p>
                     <div class="col">
-                        <i class="fab fa-css fa-5x"></i>
+                        <i class="fab fa-css3-alt fa-5x"></i>
                         <p>CSS</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-brands fa-bootstrap fa-5x"></i>
+                        <p>Bootstrap</p>
                     </div>
                     <div class="col">
                         <i class="fab fa-html5 fa-5x"></i>
@@ -259,9 +319,6 @@
         </div>
     </section>
 <!-- About Section -->
-    <!--Delete This.till here-->
-
-
     <!-- Project Summary -->
     <section class="Project_Summary" id="Project_Summary">
         <div class="container">
@@ -272,7 +329,7 @@
             <hr class="star-dark mb-5" />
             <div class="credential">
                 <h2 class="location mb-0">
-                    Incidence Rate regressesed | MUA Index and Age
+                    Incidence Regressesed | MUA Index and Age
                     <span class="credential-date text-muted">less than 65 vs. 65+</span>
                 </h2>
                 <!-- Dataframe range--modal 1-------------------------------------- -->
@@ -280,7 +337,7 @@
                 <div class="col-md-6 col-lg-8">
                     <a class="Project_Summary-item d-block mx-auto" data-toggle="modal" data-target="#Project_Summary-modal-1">                                                              
                 </div>
-                <img class="img-fluid" src="assets/img/portfolio/Incidence Regressed on MUA Index and Age 65 vs. 65plus.png" alt="" />
+                <img class="img-fluid" src="assets/img/portfolio/1Incidence Regressed on MUA Index and Age 65 vs. 65plus.png" alt="" />
                 </div>
             </div>
             <hr class="credential-divider" />
@@ -295,7 +352,7 @@
                     <div class="col-md-6 col-lg-8">
                         <a class="Project_Summary-item d-block mx-auto" data-toggle="modal" data-target="#Project_Summary-modal-2">                                                              
                     </div>
-                    <img class="img-fluid" src="assets/img/portfolio/Incidence Regressed on Median Income and Age less than 65 vs.65 plus.png" alt="" />
+                    <img class="img-fluid" src="assets/img/portfolio/2Incidence Regressed on Median Income and Age less than 65 vs.65 plus.png" alt="" />
                     </div>
             </div>
             <!-- Dataframe range modal 3---------------------------------------- -->
@@ -311,7 +368,7 @@
                         <div class="col-md-6 col-lg-8">
                             <a class="Project_Summary-item d-block mx-auto" data-toggle="modal" data-target="#Project_Summary-modal-3">                                                              
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/Mortality Regressed on MUA Index and Age less than 65 vs. 65plus.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/3Mortality Regressed on MUA Index and Age less than 65 vs. 65plus.png" alt="" />
                         </div>
                 </div>
                 <!-- Dataframe range modal 4---------------------------------------- -->
@@ -326,14 +383,14 @@
                 <div class="col-md-6 col-lg-8">
                     <a class="Project_Summary-item d-block mx-auto" data-toggle="modal" data-target="#Project_Summary-modal-4">                                                              
                 </div>
-                <img class="img-fluid" src="assets/img/portfolio/Mortality Regressed on Median Income and Age less than 65 vs. 65 plus.png" alt="" />
+                <img class="img-fluid" src="assets/img/portfolio/4Mortality Regressed on Median Income and Age less than 65 vs. 65 plus.png" alt="" />
                 </div>
             </div>
             <hr class="credential-divider" />
             <div>
         </div>
     </section>
-<!-- dataframe range again link----------------------- -->
+<!-- dataframe range again link Modal-1----------------------- -->
 <div class="modal Project_Summary-modal mfp-hide" id="Project_Summary-modal-1">
     <div class="Project_Summary-modal-dialog bg-white">
         <a class="close-button Project_Summary-modal-dismiss" href="#" data-dismiss="modal">
@@ -343,10 +400,10 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2 class="text-secondary text-uppercase mb-0">
-                        Incidence Rate regressesed
+                        Incidence Regressesed
                     </h2>
                     <hr class="star-dark mb-5" />
-                    <img class="img-fluid mb-5" src="img/portfolio/Incidence Regressed on MUA Index and Age 65 vs. 65plus.png" alt="" />
+                    <img class="img-fluid mb-5" src="img/portfolio/1Incidence Regressed on MUA Index and Age 65 vs. 65plus.png" alt="" />
                     <p class="mb-5">
                     </h2>
                     <hr class="star-dark mb-5" />
@@ -364,18 +421,16 @@
                             Specifically, the model predicts age-adjusted incidence rates per 100,000 people to be 1,244 people
                             greater for over-50 populations than under-50 populations 
                             (this metric is found by adding 865.9570 to 378.0595).
-        
                         </p>
                     </div>
-                    <a class="btn btn-primary Project_Summary-modal-dismiss" href="https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/main/Cancer_Page/assets/img/portfolio/Incidence%20Regressed%20on%20Age%20less%20than%2050%20vs.%2050plus.png">
+                    <a class="btn btn-primary Project_Summary-modal-dismiss" href="https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/Amar_Data_Analysis/Cancer_Page/assets/img/portfolio/Incidence%20Regressed%20on%20MUA%20Index%20and%20Age%2065%20vs.%2065plus.png">
                         Regression</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- dataframe range again end link----------------------- -->
-<!-- number 2 modal start -->
+<!--  modal-2 start -->
 <div class="modal Project_Summary-modal mfp-hide" id="Project_Summary-modal-2">
     <div class="Project_Summary-modal-dialog bg-white">
         <a class="close-button Project_Summary-modal-dismiss" href="#" data-dismiss="modal">
@@ -388,7 +443,7 @@
                         Incidence Regressed
                     </h2>
                     <hr class="star-dark mb-5" />
-                    <img class="img-fluid mb-5" src="img/portfolio/Incidence Regressed on Median Income and Age less than 65 vs.65 plus.png" alt="" />
+                    <img class="img-fluid mb-5" src="img/portfolio/2Incidence Regressed on Median Income and Age less than 65 vs.65 plus.png" alt="" />
                     <p class="mb-5">
                     </h2>
                     <hr class="star-dark mb-5" />
@@ -431,7 +486,7 @@
                         Mortality Regressed
                     </h2>
                     <hr class="star-dark mb-5" />
-                    <img class="img-fluid mb-5" src="img/portfolio/Mortality Regressed on MUA Index and Age less than 65 vs. 65plus.png" alt="" />
+                    <img class="img-fluid mb-5" src="img/portfolio/3Mortality Regressed on MUA Index and Age less than 65 vs. 65plus.png" alt="" />
                     <p class="mb-5">
                     </h2>
                     <hr class="star-dark mb-5" />
@@ -474,9 +529,8 @@
                         Mortality Regressed
                     </h2>
                     <hr class="star-dark mb-5" />
-                    <img class="img-fluid mb-5" src="img/portfolio/Mortality Regressed on Median Income and Age less than 65 vs. 65 plus.png" alt="" />
+                    <img class="img-fluid mb-5" src="img/portfolio/4Mortality Regressed on Median Income and Age less than 65 vs. 65 plus.png" alt="" />
                     <p class="mb-5">
-                        <!-- 1111111111111111111111111111 -->
                     </h2>
                     <hr class="star-dark mb-5" />
                     <div class="credential">
@@ -497,7 +551,6 @@
                         r-squared value of 0.951.     
                         </p>
                     </div>
-                    <!-- 111111111111111111111111 -->
                     <a class="btn btn-primary Project_Summary-modal-dismiss" href="https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/main/Cancer_Page/assets/img/portfolio/Incidence%20Regressed%20on%20Age%20less%20than%2050%20vs.%2050plus.png">
                         Regression</a>
                 </div>
@@ -534,7 +587,7 @@
                         </li> -->
                         <li class="list-inline-item">
                             <a class="btn-social text-center rounded-circle" href="https://github.com/robyndook/Cancer_Treatment_Centers_California.git">
-                                <i class="fab fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-3x"></i>
                             </a>
                         </li>
                     </ul>
@@ -542,15 +595,11 @@
             </div>
         </div>
     </footer>
-
     <div class="copyright py-4 text-center text-white">
         <div class="container">
             <small>Copyright &copy; Amar_Shah 2022</small>
         </div>
     </div>
-
-
-
     <!-- Meet-the-team Modals: These are what open up when you click on each project. Replace the information as needed. -->
     <!-- Meet-the-team Modal 1 -->
     <div class="modal Meet-the-team-modal mfp-hide" id="Meet-the-team-modal-1">
@@ -580,7 +629,6 @@
             </div>
         </div>
     </div>
-
     <!-- Meet-the-team Modal 2 -->
     <div class="modal Meet-the-team-modal mfp-hide" id="Meet-the-team-modal-2">
         <div class="Meet-the-team-modal-dialog bg-white">
@@ -596,12 +644,12 @@
                         <hr class="star-dark mb-5" />
                         <img class="img-fluid mb-5" src="img/portfolio/leyzer.png" alt="" />
                         <p class="mb-5">
-                            Hello welcome to Leyzers page, Visualizations and Tableau enthusiast
+                            Hi! My name is Leyzer and I am passionate about all aspects of Data Science
+                            but my strengths are visualizing data using tools such as Power Bi and Tableau.
                         </p>
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://www.linkedin.com/in/leyzer-coker/">
                             LinkedIn
                         </a>
-
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/Leyzer1">
                             GitHub</a>
                     </div>
@@ -609,7 +657,6 @@
             </div>
         </div>
     </div>
-
     <!-- Meet-the-team Modal 3 -->
     <div class="modal Meet-the-team-modal mfp-hide" id="Meet-the-team-modal-3">
         <div class="Meet-the-team-modal-dialog bg-white">
@@ -628,7 +675,6 @@
                             I am Amar Shah and i am a freelance Web Designer <br>
                             I started my career in web designing with US Berkeley Bootcamp<br>
                             and have experience developing various projects during my time with them.<br>
-
                             I specialize in XHTML, CSS and JavaScript web development. <br>
                             The sites that i develop are built to be search engine friendly, <br>
                             using latest development tools, principles and techniques. <br>
@@ -639,7 +685,6 @@
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://www.linkedin.com/in/amar-shah-425772107/">
                             LinkedIn
                         </a>
-
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/Amarshah4334">
                             GitHub</a>
                     </div>
@@ -670,7 +715,6 @@
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="http://www.linkedin.com/in/henrybowman99">
                             LinkedIn
                         </a>
-
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/henrybowman99">
                             GitHub</a>
                     </div>
@@ -678,7 +722,6 @@
             </div>
         </div>
     </div>
-
     <!-- Meet-the-team Modal 5 -->
     <div class="modal Meet-the-team-modal mfp-hide" id="Meet-the-team-modal-5">
         <div class="Meet-the-team-modal-dialog bg-white">
@@ -701,7 +744,6 @@
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://www.linkedin.com/in/robyn-c-85aa7751/">
                             LinkedIn
                         </a>
-
                         <a class="btn btn-primary Meet-the-team-modal-dismiss" href="https://github.com/robyndook">
                             GitHub</a>
                     </div>
@@ -709,9 +751,6 @@
             </div>
         </div>
     </div>
-
-
-
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -722,10 +761,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
     <!-- Plugin JavaScript -->
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
         integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
 </body>
-
 </html>
