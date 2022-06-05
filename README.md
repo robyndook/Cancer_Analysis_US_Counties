@@ -16,7 +16,7 @@ Data Analytics Final - Medically Under Area Index Mortality and Incidence Rate A
     - Our webpage will highlight our skills and link directly to our Linkedin, GitHub, and direct contact
     - [Add Webpage Here]
 ### Results
-###### Machine Learning
+#### Machine Learning
 **For Detailed Results for Regression Module please view [THIS](https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/c8516c38818c61b649145c372da5ea5a9505d48c/Machine_Learning_Model/Segment_3_Models/Segment_3_Written_Report.md) page**  
 We decided to stick with linear regression for our model choice because it became apparent that more advance machine learning regression techniques would be unlikely to improve model performance. For example, when we tried to use a decision tree regression, r-squared values never improved substantially, and in many cases they were actually lower than the basic linear regression. I think this was the case because more complex machine learning models typically don't improve model performance when datasets are smaller such as the ones we used in our regressions. We found it more important to spend our time optimizing the basic linear regression models by changing the regressors, editing the data preprocessing, etc.
 
@@ -27,11 +27,11 @@ In all, despite some of the challenges we faced, our models lead us to conclusiv
  1. We did not find a statistically significant relationship between cancer mortality/incidence and the medically underserved index.
  2. While gender and race certainly has an impact on cancer mortality/incidence, age is the demographic characteristic accounting for the vast majority of variety in these rates.
  3. We found the impact of median household income on cancer mortality/incidence to be minimal (essentially zero).
-###### Tabealu Dashboard
+#### Tabealu Dashboard
 **Cancer Incidence and Mortality across US Counties [Tableau](https://public.tableau.com/app/profile/leyzer.coker/viz/FinalProject_16543185620090/Dashboard1)** 
-![Image]()
-###### Database ERD
-![Image]()
+![Image](https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/28e7f1d13063eaed458f1cf8344b1a687d67c8fb/Dashboard/2022-06-05_15-45-18.jpg)
+#### Database ERD
+![Image](https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/28e7f1d13063eaed458f1cf8344b1a687d67c8fb/Database/Images/2022-06-05_15-46-32.jpg)
 ### Project Outline
 All team members assited in all aspects of the project, but we designated leds for each part
 - Webscrapping and dataset cleaning by [Andrew Abramo](https://github.com/drewabramo12)
@@ -45,7 +45,7 @@ All team members assited in all aspects of the project, but we designated leds f
 - Webpage by [Amar Shah](https://github.com/amarshah4334)
     - Branch: amar_data_analysis
 #### Data Collection
-###### Webscrapping
+##### Webscrapping
 - Tools Used:
     - Pandas
     - Browser
@@ -58,11 +58,11 @@ All team members assited in all aspects of the project, but we designated leds f
     - [State Cancer Profile - Incidence](https://www.statecancerprofiles.cancer.gov/data-topics/incidence.html)
     - [HRSA Data](https://data.hrsa.gov/tools/shortage-area/mua-find) 
     - [United States Census Bureau - Population and Median Income](https://www.census.gov/data.html)
-###### Database
+##### Database
 - Tools Used
     - Pandas
     - PostgresSQL
-###### Machine Learning
+##### Machine Learning
 - Tools Used
     - Sklearn
     - Statsmodels
@@ -72,18 +72,18 @@ All team members assited in all aspects of the project, but we designated leds f
     - train_test_split
     - StandardScaler
     - OneHotEncoder
-###### Tableau Dashboard 
+##### Tableau Dashboard 
 - Tools Used
     - Tableau
     - Pandas
     - Excel
-###### Webpage
+##### Webpage
 - Tools Used
     - HTML
     - CSS
     - Bootstrap
     - JavaScript
-###### [Google Slides Presentation](https://docs.google.com/presentation/d/18aTQwenEbAp9z6bty2mMCzodhOdcFKf8XIp5ZNyxUNw/edit#slide=id.p)
+##### [Google Slides Presentation](https://docs.google.com/presentation/d/18aTQwenEbAp9z6bty2mMCzodhOdcFKf8XIp5ZNyxUNw/edit#slide=id.p)
 #### Communication Protocols
 - No commits before 5pm
 - Final commit by 10pm on Sundays
