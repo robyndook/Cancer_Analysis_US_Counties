@@ -94,6 +94,45 @@ header.masthead h2 {
     }
 }
 
+.ERD {
+    margin-bottom: -15px;
+}
+
+.ERD .ERD-item {
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    margin-bottom: 15px;
+}
+
+.ERD .ERD-item .ERD-item-caption {
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background-color: rgba(238, 46, 17, 0.7);
+}
+
+.ERD .ERD-item .ERD-item-caption:hover {
+    opacity: 1;
+}
+
+.ERD
+    .ERD-item
+    .ERD-item-caption
+    .ERD-item-caption-content {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+    .ERD {
+        margin-bottom: -30px;
+    }
+    .ERD .ERD-item {
+        margin-bottom: 30px;
+    }
+}
+
+
 .Overview-of-the-project,
 .about-us {
     margin-top: 50px;
@@ -123,7 +162,7 @@ header.masthead h2 {
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background-color: rgba(238, 46, 17, 0.7);
+    background-color: rgba(17, 21, 238, 0.7);
 }
 
 .Meet-the-team .Meet-the-team-item .Meet-the-team-item-caption:hover {
@@ -154,20 +193,24 @@ header.masthead h2 {
     z-index: 2;
     -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+    color: #000000 !important;
 }
 
 .Meet-the-team-modal .Meet-the-team-modal-dialog .close-button {
     position: absolute;
     top: 2rem;
     right: 2rem;
+    color: #000000 !important;
 }
 
 .Meet-the-team-modal .Meet-the-team-modal-dialog .close-button i {
     line-height: 38px;
+    color: #000000 !important;
 }
 
 .Meet-the-team-modal .Meet-the-team-modal-dialog h2 {
     font-size: 2rem;
+    color: #000000 !important;
 }
 
 @media (min-width: 768px) {
@@ -185,63 +228,29 @@ header.masthead h2 {
 /* project summary */
 .Project_Summary {
     margin-bottom: -15px;
+    color: #000000 !important;
 }
 
 .Project_Summary .location {
     font-size: 1.6rem;
     font-weight: 500;
+    color: #000000 !important;
 }
 
 .Project_Summary .credential-date {
     font-size: 1rem;
     font-weight: 300;
+    color: #000000 !important;
 }
 
 .Project_Summary .credential-description {
     max-width: 700px;
+    color: #000000 !important;
 }
 
 .Project_Summary .credential-divider {
     border-color: rgba(0, 0, 0, 0.3); }
 
-/* .Project_Summary {
-    margin-bottom: -15px;
-}
-
-
-.Project_Summary .Project_Summary-item {
-    position: relative;
-    display: block;
-    max-width: 25rem;
-    margin-bottom: 15px;
-}
-
-.Project_Summary .Project_Summary-item .Project_Summary-item-caption {
-    -webkit-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-    opacity: 0;
-    background-color: rgba(238, 46, 17, 0.7);
-}
-
-.Project_Summary .Project_Summary-item .Project_Summary-item-caption:hover {
-    opacity: 1;
-}
-
-.Project_Summary
-    .Project_Summary-item
-    .Project_Summary-item-caption
-    .Project_Summary-item-caption-content {
-    font-size: 1.5rem;
-}
-
-@media (min-width: 576px) {
-    .Project_Summary {
-        margin-bottom: -30px;
-    }
-    .Project_Summary .Project_Summary-item {
-        margin-bottom: 30px;
-    }
-}
 
 .Project_Summary-modal .Project_Summary-modal-dialog {
     padding: 3rem 1rem;
@@ -251,20 +260,24 @@ header.masthead h2 {
     z-index: 2;
     -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+    color: #000000 !important;
 }
 
 .Project_Summary-modal .Project_Summary-modal-dialog .close-button {
     position: absolute;
     top: 2rem;
     right: 2rem;
+    color: #000000 !important;
 }
 
 .Project_Summary-modal .Project_Summary-modal-dialog .close-button i {
     line-height: 38px;
+    color: #000000 !important;
 }
 
 .Project_Summary-modal .Project_Summary-modal-dialog h2 {
     font-size: 2rem;
+    color: #000000 !important;
 }
 
 @media (min-width: 768px) {
@@ -276,7 +289,7 @@ header.masthead h2 {
     .Project_Summary-modal .Project_Summary-modal-dialog h2 {
         font-size: 3rem;
     }
-} */
+} 
 
 .footer {
     padding-top: 5rem;
@@ -349,7 +362,7 @@ body {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(56, 185, 138);
   }
   
   nav a:hover {}
@@ -368,4 +381,3 @@ body {
   }
   
 
-  
