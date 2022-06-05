@@ -33,7 +33,7 @@ In all, despite some of the challenges we faced, our models lead us to conclusiv
 #### Database ERD
 ![Image](https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/28e7f1d13063eaed458f1cf8344b1a687d67c8fb/Database/Images/2022-06-05_15-46-32.jpg)
 ### Project Outline
-All team members assited in all aspects of the project, but we designated leds for each part
+All team members assited in all aspects of the project, but we designated leads for each part
 - Webscrapping and dataset cleaning by [Andrew Abramo](https://github.com/drewabramo12)
     - Branch: abramo_data_analysis
 - Database and GitHub Management by [Robyn Cook](https://github.com/robyndook)
