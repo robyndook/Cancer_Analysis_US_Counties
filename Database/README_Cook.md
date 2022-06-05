@@ -1,4 +1,8 @@
-###### Overview
-Overview of the project: Utilizing Machine learning to build a dynamic table, react to user input using JavaScript and incorporate it into a web site using HTML, CSS and Bootstrap for Lung Cancer across the state of California. We will use our knowledge of Python to create the different datasets and then utilizing Tableau create various visualizations finally incorporating it into an interactive model on HTML format
-
-Notes:
+My portion of this project was to manage out GitHub repository
+#### GitHub Management
+- Organizing file struction and naming convention
+- organizing individual branchs pulls and merges
+- Updating the README
+- Communicating with the team about pending merges and issues with merges
+#### Database PostgresSQL
+I used ERD to outline our database, Pandas to clean the data, and PostgresSQL to combine the data into six databases
