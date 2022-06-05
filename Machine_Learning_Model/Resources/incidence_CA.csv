@@ -1,0 +1,64 @@
+
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate([rate note]) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval","CI*Rank([rank note])","Lower CI (CI*Rank)","Upper CI (CI*Rank)",Average Annual Count,Recent Trend,"Recent 5-Year Trend ([trend note]) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"California(7)",06000,***,398.4 ,394.9, 401.8,N/A , 34 , 38,10786,falling,-2.9 ,-3.3, -2.6
+"US (SEER+NPCR)(1)",00000,***,444.9 ,444, 445.9,N/A , N/A , N/A,187408,falling,-1.5 ,-1.7, -1.3
+"San Francisco County(7)",06075,***,508.8 ,484.2, 534.4,1 , 1 , 5,336,falling,-1.1 ,-1.4, -0.8
+"Shasta County(7)",06089,***,497.9 ,368.1, 656.1,2 , 1 , 34,11,stable,-2.0 ,-5.2, 1.4
+"San Joaquin County(7)",06077,***,450.2 ,424.8, 476.7,3 , 2 , 12,263,falling,-1.1 ,-1.9, -0.4
+"Marin County(7)",06041,***,438.6 ,372.5, 512.8,4 , 1 , 28,35,falling,-2.2 ,-3.5, -0.9
+"Siskiyou County(7)",06093,***,437.8 ,262.6, 682.4,5 , 1 , 39,4,stable,-0.2 ,-4.9, 4.7
+"Solano County(7)",06095,***,437.3 ,415.8, 459.7,6 , 2 , 14,336,falling,-1.3 ,-2.1, -0.5
+"Alameda County(7)",06001,***,422.7 ,410.5, 435.2,7 , 4 , 15,966,falling,-2.6 ,-3.4, -1.7
+"Contra Costa County(7)",06013,***,421.6 ,404.7, 439,8 , 3 , 17,501,falling,-3.4 ,-5.4, -1.5
+"Fresno County(7)",06019,***,416.3 ,389.9, 443.9,9 , 3 , 22,201,falling,-1.5 ,-2.3, -0.7
+"Sacramento County(7)",06067,***,414.1 ,399.6, 429,10 , 4 , 18,662,falling,-2.7 ,-4.3, -1.1
+"Humboldt County(7)",06023,***,412.6 ,280.3, 581.5,11 , 1 , 39,7,stable,-1.6 ,-5.3, 2.3
+"Santa Clara County(7)",06085,***,411.8 ,386.9, 437.7,12 , 4 , 22,226,stable,-0.7 ,-1.3, 0.0
+"Stanislaus County(7)",06099,***,406.6 ,362.8, 454.1,13 , 2 , 28,71,stable,-0.5 ,-1.8, 0.7
+"San Bernardino County(7)",06071,***,404.4 ,391, 418,14 , 7 , 21,764,falling,-4.5 ,-8.4, -0.5
+"Kern County(7)",06029,***,396.2 ,368.5, 425.2,15 , 5 , 26,172,falling,-1.7 ,-2.6, -0.8
+"Los Angeles County(7)",06037,***,394.2 ,388.8, 399.7,16 , 11 , 22,4145,falling,-3.2 ,-3.6, -2.7
+"Yolo County(7)",06113,***,385.9 ,314.2, 468.4,17 , 2 , 36,22,stable,-1.1 ,-3.1, 1.0
+"Riverside County(7)",06065,***,385.1 ,371.5, 399,18 , 12 , 25,661,falling,-2.4 ,-2.9, -1.9
+"Ventura County(7)",06111,***,381.5 ,343.3, 422.7,19 , 5 , 31,79,falling,-1.2 ,-2.2, -0.1
+"Lake County(7)",06033,***,375.7 ,269.1, 512.6,20 , 1 , 39,9,stable,-2.6 ,-5.4, 0.2
+"Merced County(7)",06047,***,373.5 ,323.2, 429.2,21 , 4 , 35,41,falling,-1.7 ,-3.3, -0.2
+"Santa Barbara County(7)",06083,***,370.3 ,318.5, 427.8,22 , 4 , 35,38,stable,-1.1 ,-2.5, 0.3
+"San Diego County(7)",06073,***,368.2 ,354.6, 382.1,23 , 16 , 29,612,stable,-1.1 ,-2.8, 0.6
+"Yuba County(7)",06115,***,364.1 ,265.1, 486.2,24 , 1 , 39,10,stable,-0.7 ,-3.9, 2.6
+"San Mateo County(7)",06081,***,357.8 ,327.9, 389.7,25 , 13 , 33,109,falling,-5.7 ,-7.5, -3.8
+"Butte County(7)",06007,***,356.5 ,278.4, 448.7,26 , 3 , 38,15,falling,-4.2 ,-6.3, -2.1
+"Napa County(7)",06055,***,353.1 ,269.9, 453.5,27 , 2 , 39,13,falling,-4.2 ,-6.2, -2.2
+"Placer County(7)",06061,***,345.2 ,287.9, 410.4,28 , 6 , 38,28,stable,-0.9 ,-3.4, 1.6
+"Orange County(7)",06059,***,344.2 ,322.4, 367,29 , 19 , 34,217,falling,-2.0 ,-2.7, -1.2
+"Monterey County(7)",06053,***,340.6 ,299.5, 385.6,30 , 13 , 37,55,falling,-3.2 ,-4.8, -1.7
+"Sonoma County(7)",06097,***,324.7 ,274.4, 381.2,31 , 12 , 38,34,falling,-2.4 ,-4.7, -0.1
+"San Luis Obispo County(7)",06079,***,323.1 ,249.7, 410.1,32 , 4 , 39,17,falling,-3.3 ,-5.8, -0.7
+"Madera County(7)",06039,***,308.1 ,246.1, 380.6,33 , 12 , 39,18,falling,-3.0 ,-5.3, -0.7
+"Kings County(7)",06031,***,298.2 ,240, 365.3,34 , 15 , 39,23,falling,-2.7 ,-4.7, -0.7
+"Sutter County(7)",06101,***,287 ,202, 394.6,35 , 6 , 39,8,stable,-2.5 ,-6.6, 1.9
+"Tulare County(7)",06107,***,277.4 ,224.7, 338,36 , 23 , 39,22,stable,-0.7 ,-15.4, 16.5
+"Santa Cruz County(7)",06087,***,272.2 ,201.1, 359.8,37 , 16 , 39,12,stable,-3.4 ,-6.9, 0.2
+"Imperial County(7)",06025,***,270 ,205, 348.3,38 , 20 , 39,12,stable,-2.4 ,-5.1, 0.3
+"El Dorado County(7)",06017,***,244.3 ,155.3, 364.1,39 , 13 , 39,6,falling,-6.1 ,-10.0, -2.0
+"Alpine County(7)",06003,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Amador County(7)",06005,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Calaveras County(7)",06009,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Colusa County(7)",06011,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Del Norte County(7)",06015,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Glenn County(7)",06021,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Inyo County(7)",06027,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Lassen County(7)",06035,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Mariposa County(7)",06043,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Mendocino County(7)",06045,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Modoc County(7)",06049,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Mono County(7)",06051,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Nevada County(7)",06057,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Plumas County(7)",06063,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"San Benito County(7)",06069,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Sierra County(7)",06091,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Tehama County(7)",06103,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Trinity County(7)",06105,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Tuolumne County(7)",06109,***,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+
