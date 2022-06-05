@@ -1,4 +1,4 @@
-# Cancer_Treatment_Centers_California 
+# Cancer_Analysis_US_Counties 
 Cancer Incidence and Mortality across US Counties [^1]
 
 ![Image](https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/e54c1604e93be8d994757b02602943391450f4bc/Team_Notes/Cancer_Ribbon.jpg)
