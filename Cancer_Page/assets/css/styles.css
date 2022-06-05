@@ -15,8 +15,8 @@ hr {
     border-color: #fff;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: none;
+    margin-right: none;
 }
 
 section {
