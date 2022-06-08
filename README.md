@@ -1,10 +1,10 @@
 # Cancer_Analysis_US_Counties 
-Cancer Incidence and Mortality across US Counties [^1]
+Medically Underserved Area Index Mortality and Incidence Rate Analytics on Cancer Treatment Centers by US Counties [^1]
 
 ![Image](https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/e54c1604e93be8d994757b02602943391450f4bc/Team_Notes/Cancer_Ribbon.jpg)
 [^2]
 
-Data Analytics Final Project - Medically Under Area Index Mortality and Incidence Rate Analytics on Cancer Treatment Centers by US Counties using Medically Under Area Index (MUA), Mortality, Median Income, Population, Age, Race, and Gender
+Data Analytics Final Project - Medically Underserved Area Index Mortality and Incidence Rate Analytics on Cancer Treatment Centers by US Counties using Medically Under Area Index (MUA), Mortality, Median Income, Population, Age, Race, and Gender
 ### Overview
 - We will use our knowledge of Python to web-scrape dataset and create a database or all Cancer types per county in the United States, MUA Index, Median Income, Population, Age, Race, and Gender
 - Using this data we will utilize Machine Learning to build a dynamic table, to answer three key questions
