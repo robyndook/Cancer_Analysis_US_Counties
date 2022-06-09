@@ -12,9 +12,7 @@ Data Analytics Final Project - Medically Underserved Area Index Mortality and In
     - Is there a relationship between Cancer Mortality or Incidence and Demographic Data per County
     - Is there a relationship between Cancer Mortality or Incidence and Median Household Income per County
 - With Tableau we will display the database to show area where Cancer Mortality and Incidence are prelevant and a dinamic visualization of the demographics we chose
-- Finally we will compile our visualiztions and Machine Learning results into a web site using HTML, CSS and Bootstrap
-    - Our webpage will highlight our skills and link directly to our Linkedin, GitHub, and direct contact
-    - [Add Webpage Here]
+
 ### Results
 #### Machine Learning
 **For Detailed Results for Regression Module please view [THIS](https://github.com/robyndook/Cancer_Treatment_Centers_California/blob/c8516c38818c61b649145c372da5ea5a9505d48c/Machine_Learning_Model/Segment_3_Models/Segment_3_Written_Report.md) page**  
@@ -95,3 +93,8 @@ All team members assited in all aspects of the project, but we designated leads 
     - The Public Health Service Act (42 U.S.C. 242m(d)) provides that the data collected by the National Center for Health Statistics (NCHS) may be used only for the purpose for which they were obtained; any effort to determine the identity of any reported cases, or to use the information for any purpose other than for statistical reporting and analysis, is against the law. The National Program of Cancer Registries (NPCR), Centers for Disease Control and Prevention (CDC), has obtained an assurance of confidentiality pursuant to Section 308(d) of the Public Health Service Act, 42 U.S.C. 242m(d). This assurance provides that identifiable or potentially identifiable data collected by the NPCR may be used only for the purpose for which they were obtained unless the person or establishment from which they were obtained has consented to such use. Any effort to determine the identity of any reported cases, or to use the information for any purpose other than statistical reporting and analysis, is a violation of the assurance.
 
 [^2]: Cover Image Source - https://magnetamerica.com/cancer-awareness-rainbow-ribbon-magnet/
+
+
+<!-- Finally we will compile our visualiztions and Machine Learning results into a web site using HTML, CSS and Bootstrap
+    - Our webpage will highlight our skills and link directly to our Linkedin, GitHub, and direct contact
+    - [Add Webpage Here]-->
