@@ -82,13 +82,13 @@ All team members assited in all aspects of the project, but we designated leads 
     - Bootstrap
     - JavaScript
 ##### [Google Slides Presentation](https://docs.google.com/presentation/d/18aTQwenEbAp9z6bty2mMCzodhOdcFKf8XIp5ZNyxUNw/edit#slide=id.p)
-#### Communication Protocols
+<!--#### Communication Protocols
 - No commits before 5pm
 - Final commit by 10pm on Sundays
 - Meet three times per week during class, 
     - Once per week outside of class - Friday's at 7pm (Teams Invite)
 - Start with review of projects
-- End with determined outcomes by following meeting
+- End with determined outcomes by following meeting-->
 [^1]: By using these data, you signify your agreement to comply with the following statutorily based requirements.
     - The Public Health Service Act (42 U.S.C. 242m(d)) provides that the data collected by the National Center for Health Statistics (NCHS) may be used only for the purpose for which they were obtained; any effort to determine the identity of any reported cases, or to use the information for any purpose other than for statistical reporting and analysis, is against the law. The National Program of Cancer Registries (NPCR), Centers for Disease Control and Prevention (CDC), has obtained an assurance of confidentiality pursuant to Section 308(d) of the Public Health Service Act, 42 U.S.C. 242m(d). This assurance provides that identifiable or potentially identifiable data collected by the NPCR may be used only for the purpose for which they were obtained unless the person or establishment from which they were obtained has consented to such use. Any effort to determine the identity of any reported cases, or to use the information for any purpose other than statistical reporting and analysis, is a violation of the assurance.
 
